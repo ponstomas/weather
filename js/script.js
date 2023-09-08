@@ -45,7 +45,7 @@ btn.addEventListener('click', () => {
 });
 
 async function getLatLon() {
-    const res = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${ciudad}&appid=${API_key}`)
+    const res = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${ciudad}&appid=${API_key}`)
     const coord = await res.json();
     latitud = coord[0].lat;
     longitud = coord[0].lon;
