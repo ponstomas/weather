@@ -1,0 +1,43 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#arriba {
+    background: #87CEFA; 
+}
+
+body {
+    background: #87CEEB;
+    color: #fff; 
+}
+
+.card {
+    height: 400px;
+}
+
+#icon {
+    font-size: 60px;
+}
+
+#temp, #wind, #hum {
+    font-size: 25px;
+}
+
+.card-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-body {
+    margin: 10px;
+}
+
+#otros {
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    width: 100%;
+
+}
